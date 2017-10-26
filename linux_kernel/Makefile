@@ -1,4 +1,5 @@
-obj-m += hello_world_d-grossman.o
+<h6>obj-m += hello_world_d-grossman.o</h6>
+<p> LOL </p>
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
